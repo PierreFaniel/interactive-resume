@@ -1,0 +1,17 @@
+.project h4 {
+    text-align: left;
+    font-size: 1.3em;
+    color: #444;
+    border: none;
+    margin-bottom: 0;
+}
+.project h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.project {
+    margin-bottom: 25px;
+}

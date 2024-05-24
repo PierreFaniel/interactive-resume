@@ -5,19 +5,20 @@ import Cover from './Cover';
 import Profile from './Profile';
 import Experiences from './Experiences';
 import Education from './Education';
+import Projects from './Projects';
 import Skills from './Skills';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
 
 
-const appSections = ['profileSection', 'experienceSection', 'educationSection', 'skillsSection', 'contactSection']
+const appSections = ['profileSection', 'experienceSection', 'educationSection', 'projectsSection', 'skillsSection', 'contactSection'];
 class App extends Component {
   scrollSpyElement = undefined;
 
   listenScrollEvent = e => {
     // Must be computed each time
     const coverHeight = document.querySelector('.cover').scrollHeight;
-    if(window.scrollY > 30 + coverHeight){
+    if(window.scrollY > coverHeight){
       this.scrollSpyElement.classList.add('fixed');
     } else {
       this.scrollSpyElement.classList.remove('fixed');
@@ -38,6 +39,7 @@ class App extends Component {
           <Profile/>
           <Experiences/>
           <Education/>
+          <Projects/>
           <Skills/>
           <Hobbies/>
           <Contact/>
@@ -46,6 +48,7 @@ class App extends Component {
           <li><a href="#profileSection">Profile</a></li>
           <li><a href="#experienceSection">Experience</a></li>
           <li><a href="#educationSection">Education</a></li>
+          <li><a href="#projectsSection">Projects</a></li>
           <li><a href="#skillsSection">Skills</a></li>
           <li><a href="#contactSection">Contact</a></li>
         </Scrollspy>
