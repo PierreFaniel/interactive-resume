@@ -7,7 +7,7 @@
 
 .experience-item .left-column {
     display: inline-block;
-    width: 20%;
+    width: 40%;
     position: relative;
     text-align: right;
     vertical-align: top;
@@ -28,7 +28,7 @@
 
 .experience-item .right-column {
     display: inline-block;
-    width: 70%;
+    width: 45%;
     border-left: 1px dashed #000;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -38,7 +38,6 @@
     font-size: 14px;
     padding-left: 10px;
     padding-top: 10px;
-    text-align: justify;
 }
 
 .badge {
@@ -57,4 +56,16 @@
 
 .badge-orange {
     background-color: rgb(207, 100, 0);
+}
+
+@media only screen and (min-width: 460px) {
+    .experience-item .right-column {
+        width: 65%;
+    }
+    .experience-item .left-column {
+        width: 25%;
+    }
+    .job-description {
+        text-align: justify;
+    }
 }
