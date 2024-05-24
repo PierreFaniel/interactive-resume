@@ -19,26 +19,26 @@ class Skills extends Component {
                 <h2>Technical Skills</h2>
                 <div className="skill-group">
                     <SkillBar name="HTML" percentage="90"/>
-                    <SkillBar name="XML" percentage="90"/>
                     <SkillBar name="CSS" percentage="90"/>
-                    <SkillBar name="Python" percentage="80"/>
+                    <SkillBar name="Python" percentage="90"/>
                     <SkillBar name="jQuery" percentage="80"/>
-                    <SkillBar name="JavaScript" percentage="75"/>
                     <SkillBar name="Git" percentage="75"/>
-                    <SkillBar name="Odoo" percentage="65"/>
-                    <SkillBar name="OS X" percentage="60"/>
+                    <SkillBar name="Odoo" percentage="75"/>
+                    <SkillBar name="OS X" percentage="70"/>
                     <SkillBar name="SQL" percentage="60"/>
-                    <SkillBar name="Unix" percentage="45"/>
-                    <SkillBar name="React" percentage="40"/>
+                    <SkillBar name="JavaScript" percentage="60"/>
+                    <SkillBar name="Unix" percentage="55"/>
+                    <SkillBar name="LetsEncrypt" percentage="40"/>
                     <SkillBar name="Docker" percentage="30"/>
                     <SkillBar name="Nginx" percentage="30"/>
+                    <SkillBar name="React" percentage="25"/>
                 </div>
                 <h2>Language Skills</h2>
                 <div className="skill-group">
                     <SkillBar name="French" percentage="100"/>
                     <SkillBar name="English" percentage="90"/>
                     <SkillBar name="Dutch" percentage="40"/>
-                    <SkillBar name="German" percentage="25"/>
+                    <SkillBar name="German" percentage="15"/>
                 </div>
             </section>
         )

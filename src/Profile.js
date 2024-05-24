@@ -16,7 +16,7 @@ class Profile extends Component {
         return (
             <section id="profileSection" className="container profile">
                 <h2>Profile</h2>
-                <h4>I am an all around (Odoo) Developer</h4>
+                <h4>I am an all around Developer</h4>
                 <div className="profile-content">
                     <div className="profile-details">
                         <div>
@@ -36,7 +36,7 @@ class Profile extends Component {
                         </div>
                     </div>
                     <div className="profile-description">
-                        Since starting as a full time developer in 2015, I have been working with <a href="https://www.odoo.com/">Odoo</a>, a Belgium made open source ERP software.
+                        Since starting as a full time developer in August 2015, I have been working with <a href="https://www.odoo.com/">Odoo</a>, a Belgium made open source ERP software.
                         I have had the chance to work on a bundle of projects scaling from small startup ERP tweaking to big company completely new features building on top of the Odoo solution.
                         I am well versed in most of the Odoo stack; I know how to tweak most backend modules both technically and functionally and I have helped building several frontend apps.
                         I pay a lot of attention in writing efficient and well organised code to ensure that others can easily add a feature to it.

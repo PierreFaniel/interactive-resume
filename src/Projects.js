@@ -7,6 +7,15 @@ class Projects extends Component {
             <section id="projectsSection"  className="container projects">
                 <h2>Projects</h2>
                 <div className="project">
+                    <h4>Bell Racing Helmets - Odoo Implementation</h4>
+                    <h6>01/2017 - Present</h6>
+                    <div className="project-description">
+                        I have worked directly with the product owner as the sole developer on this project since August 2018.
+                        Implementation of the Odoo solution for Bell Racing Helmets in a multi company context: Manufacturing, sales and purchase flow, inventory management, accounting. 
+                        Integration with external API such as UPS and Authorize.net
+                    </div>
+                </div>
+                <div className="project">
                     <h4>Amnesty International Belgique Francophone - Odoo Implementation</h4>
                     <h6>06/2017 - Present</h6>
                     <div className="project-description">

@@ -8,13 +8,14 @@ class Experiences extends Component {
                 <h2>Work Experience</h2>
                 <div className="experience-item">
                     <div className="left-column">
-                        07/2018 - Current
+                        08/2018 - Current
                     </div>
                     <div className="right-column">
                         <strong>Odoo Developer</strong> <span className="badge badge-orange">employee</span><br/>
                         <i>Niboo, Brussels, Belgium</i>
                         <div className="job-description">
-                            I work on several client's and internal projects. I also try my best to pass on my knowlegde to less experienced developers.
+                            I work on several client Odoo implementation projects with varying scopes. 
+                            I also work on passing my knowledge to less experienced developers by organizing training sessions/workshops and writing function and technical documentation.
                         </div>
                     </div>
                 </div>

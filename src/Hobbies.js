@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './Hobbies.css';
 import travel_logo from './logos/travel.png';
-import trekking_logo from './logos/trekking.png';
-import baseball_logo from './logos/baseball.png';
+import hiking_logo from './logos/hiking.png';
+import music_logo from './logos/music.png';
 import photography_logo from './logos/photography.png';
-import guitar_logo from './logos/guitar.png';
 
 class Hobbies extends Component {
     render(){
@@ -17,20 +16,16 @@ class Hobbies extends Component {
                         <h3>Travel</h3>
                     </div>
                     <div className="hobby-item">
-                        <img src={trekking_logo} alt="Trekking"/>
-                        <h3>Trekking</h3>
+                        <img src={hiking_logo} alt="Hiking"/>
+                        <h3>Hiking</h3>
                     </div>
                     <div className="hobby-item">
                         <img src={photography_logo} alt="Photography"/>
                         <h3>Photography</h3>
                     </div>
                     <div className="hobby-item">
-                        <img src={baseball_logo} alt="Baseball"/>
-                        <h3>Baseball</h3>
-                    </div>
-                    <div className="hobby-item">
-                        <img src={guitar_logo} alt="Guitar"/>
-                        <h3>Guitar</h3>
+                        <img src={music_logo} alt="Music"/>
+                        <h3>Music</h3>
                     </div>
                 </div>
             </section>

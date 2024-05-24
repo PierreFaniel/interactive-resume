@@ -32,7 +32,6 @@ class App extends Component {
 
   render() {
     return (
-      // <div className={this.state.fixed ? "App fixed":"App"}>
       <div className="App">
         <div>
           <Cover/>
