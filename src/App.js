@@ -3,6 +3,7 @@ import './App.css';
 import Cover from './Cover';
 import Profile from './Profile';
 import Experiences from './Experiences';
+import Education from './Education';
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
         <Cover/>
         <Profile/>
         <Experiences/>
-        {/*<Abilities/>
+        <Education/>
+        {/*<Skills/>
         <Projects/>
         <Contact/> */}
       </div>

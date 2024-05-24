@@ -5,7 +5,7 @@ class Cover extends Component {
     render(){
         return (
             <div className="cover">
-                <img className="cover-picture" src={cover} alt="Pierre Faniel, Belgium - 2017"/>
+                <img className="cover-picture" src={cover} alt="© Pierre Faniel - Belgium, 2017"/>
                 <div className="cover-title">
                     <h1>Pierre Faniel</h1>
                     <h3>Developer</h3>

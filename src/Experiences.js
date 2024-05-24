@@ -4,9 +4,8 @@ import './Experiences.css'
 class Experiences extends Component {
     render(){
         return(
-            <div className="experience">
+            <div className="container experience">
                 <h2>Work Experience</h2>
-                <h4>"There's nothing more permanent than a temporary hack." - Kyle Simpson</h4>
                 <div className="experience-item">
                     <div className="left-column">
                         07/2018 - Current

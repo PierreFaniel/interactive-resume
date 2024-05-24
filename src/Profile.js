@@ -12,7 +12,7 @@ class Profile extends Component {
 
     render(){
         return (
-            <div className="profile">
+            <div className="container profile">
                 <h2>Profile</h2>
                 <h4>I am an all around (Odoo) Developer</h4>
                 <div className="profile-content">
