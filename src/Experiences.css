@@ -47,15 +47,15 @@
 }
 
 .badge-green {
-    background-color: rgb(27, 134, 72);
+    background-color: #1b8648;
 }
 
 .badge-blue {
-    background-color: rgb(0, 117, 235);
+    background-color: #0075eb;
 }
 
 .badge-orange {
-    background-color: rgb(207, 100, 0);
+    background-color: #e6752b;
 }
 
 @media only screen and (min-width: 460px) {
