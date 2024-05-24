@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Cover from './Cover';
 import Profile from './Profile';
+import Experiences from './Experiences';
 
 class App extends Component {
   render() {
@@ -9,8 +10,8 @@ class App extends Component {
       <div className="App">
         <Cover/>
         <Profile/>
-        {/* <Experiences/>
-        <Abilities/>
+        <Experiences/>
+        {/*<Abilities/>
         <Projects/>
         <Contact/> */}
       </div>
