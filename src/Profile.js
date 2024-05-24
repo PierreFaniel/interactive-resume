@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Profile.css';
-import profile_picture from './profile.webp';
+import profile_picture from './profile.jpg';
 import gitlab_logo from './logos/gitlab.png';
 import github_logo from './logos/github.png';
 import linkedin_logo from './logos/linkedin.png';

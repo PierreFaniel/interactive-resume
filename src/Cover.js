@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cover from './cover.webp';
+import cover from './cover.jpg';
 import './Cover.css';
 class Cover extends Component {
     render(){
