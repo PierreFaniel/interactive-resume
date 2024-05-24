@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import './Profile.css';
 import profile_picture from './profile.webp';
-import gitlab_logo from './logos/gitlab.png'
-import github_logo from './logos/github.png'
-import linkedin_logo from './logos/linkedin.png'
-import twitter_logo from './logos/twitter.png'
+import gitlab_logo from './logos/gitlab.png';
+import github_logo from './logos/github.png';
+import linkedin_logo from './logos/linkedin.png';
+import twitter_logo from './logos/twitter.png';
 
 class Profile extends Component {
     computeAge(){
-        const today = new Date();
-        const birthDate = new Date(1992, 10, 25);
-        const diff = today.getTime() - birthDate.getTime();
+        const diff = new Date().getTime() - new Date(1992, 10, 25).getTime();
         return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
     }
 
@@ -41,7 +39,7 @@ class Profile extends Component {
                         Since starting as a full time developer in 2015, I have been working with <a href="https://www.odoo.com/">Odoo</a>, a Belgium made open source ERP software.
                         I have had the chance to work on a bundle of projects scaling from small startup ERP tweaking to big company completely new features building on top of the Odoo solution.
                         I am well versed in most of the Odoo stack; I know how to tweak most backend modules both technically and functionally and I have helped building several frontend apps.
-                        I am detail oriented with a particular affection for state of the art software. I also would love to discover a whole new stack!
+                        I pay a lot of attention in writing efficient and well organised code to ensure that others can easily add a feature to it.
                     </div>
                     <div className="profile-picture">
                         <img src={profile_picture} alt="Pierre Faniel profile - 2017"/>

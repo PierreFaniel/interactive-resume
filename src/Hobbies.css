@@ -1,0 +1,26 @@
+.hobby-item{
+    width: 20%;
+    float: left;
+}
+
+.hobby-item img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hobby-item h3 {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.hobbies-list {
+    overflow: hidden;    
+}
+
+@media only screen and (min-width: 992px) {
+    .hobby-item h3  {
+        font-size: 1.17em;
+    }
+}

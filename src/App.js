@@ -5,6 +5,8 @@ import Profile from './Profile';
 import Experiences from './Experiences';
 import Education from './Education';
 import Skills from './Skills';
+import Hobbies from './Hobbies';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -15,8 +17,8 @@ class App extends Component {
         <Experiences/>
         <Education/>
         <Skills/>
-        {/*<Projects/>
-        <Contact/> */}
+        <Hobbies/>
+        <Contact/>
       </div>
     );
   }

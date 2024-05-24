@@ -21,3 +21,7 @@
 .bar-completion span {
     padding-right: 10px;
 }
+
+.skill-group {
+    overflow: hidden;    
+}
