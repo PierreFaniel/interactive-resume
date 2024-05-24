@@ -16,7 +16,6 @@ class Profile extends Component {
         return (
             <section id="profileSection" className="container profile">
                 <h2>Profile</h2>
-                <h4>I am an all around Developer</h4>
                 <div className="profile-content">
                     <div className="profile-details">
                         <div>
@@ -36,13 +35,14 @@ class Profile extends Component {
                         </div>
                     </div>
                     <div className="profile-description">
-                        Since starting as a full time developer in August 2015, I have been working with <a href="https://www.odoo.com/">Odoo</a>, a Belgium made open source ERP software.
-                        I have had the chance to work on a bundle of projects scaling from small startup ERP tweaking to big company completely new features building on top of the Odoo solution.
-                        I am well versed in most of the Odoo stack; I know how to tweak most backend modules both technically and functionally and I have helped building several frontend apps.
-                        I pay a lot of attention in writing efficient and well organised code to ensure that others can easily add a feature to it.
-                    </div>
+                        Pierre is pationate about technologies, determined and daring, he strives on starting new projects, satisfying his sense of curiosity and keeps an open mind.
+                        He works with Python, React, HTML, SQL as well as JavaScript. His set of skills allows him to work on the front and the backend.
+                        <br/><br/>
+                        His past experiences on numerous projects allow him to focus on the given targets and on the means to reach these objectives in the interest of the users and business.
+                        He communicates his passion with enthusiasm, transmits his knowledge and learns from his co-workers.
+                  </div>
                     <div className="profile-picture">
-                        <img src={profile_picture} alt="Pierre Faniel profile - 2017"/>
+                        <img src={profile_picture} alt="Pierre Faniel profile - 2019"/>
                     </div>
                 </div>
             </section>

@@ -8,7 +8,7 @@ class Cover extends Component {
                 <img className="cover-picture" src={cover} alt="© Pierre Faniel - Belgium, 2017"/>
                 <div className="cover-title">
                     <h1>Pierre Faniel</h1>
-                    <h3>Software Developer</h3>
+                    <h3>Full Stack Developer</h3>
                 </div>
                 <div className="icon-scroll"/>
             </div>

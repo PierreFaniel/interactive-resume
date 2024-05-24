@@ -11,7 +11,7 @@ import Hobbies from './Hobbies';
 import Contact from './Contact';
 
 
-const appSections = ['profileSection', 'experienceSection', 'educationSection', 'projectsSection', 'skillsSection', 'contactSection'];
+const appSections = ['profileSection', 'experienceSection', 'skillsSection', 'educationSection', 'projectsSection', 'contactSection'];
 class App extends Component {
   scrollSpyElement = undefined;
 
@@ -37,18 +37,18 @@ class App extends Component {
           <Cover/>
           <Profile/>
           <Experiences/>
+          <Skills/>
           <Education/>
           <Projects/>
-          <Skills/>
           <Hobbies/>
           <Contact/>
         </div>
         <Scrollspy items={appSections} currentClassName="is-current" className="scroll-spy">
           <li><a href="#profileSection">Profile</a></li>
           <li><a href="#experienceSection">Experience</a></li>
+          <li><a href="#skillsSection">Skills</a></li>
           <li><a href="#educationSection">Education</a></li>
           <li><a href="#projectsSection">Projects</a></li>
-          <li><a href="#skillsSection">Skills</a></li>
           <li><a href="#contactSection">Contact</a></li>
         </Scrollspy>
       </div>

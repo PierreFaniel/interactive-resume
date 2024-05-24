@@ -6,20 +6,24 @@ class Experiences extends Component {
         return(
             <section id="experienceSection" className="container experience">
                 <h2>Work Experience</h2>
-                <div className="experience-item">
-                    <div className="left-column">
-                        08/2018 - Current
-                    </div>
-                    <div className="right-column">
-                        <strong>Odoo Developer</strong> <span className="badge badge-orange">employee</span><br/>
-                        <i>Niboo, Brussels, Belgium</i>
-                        <div className="job-description">
-                            I work on several client Odoo implementation projects with varying scopes. 
-                            I also work on passing my knowledge to less experienced developers by organizing training sessions/workshops and writing function and technical documentation.
+                <div className="experience-content">
+                    <div className="experience-item">
+                        <div className="left-column">
+                            08/2018 - 05/2019
+                        </div>
+                        <div className="right-column">
+                            <strong>Senior Full Stack Developer</strong> <span className="badge badge-orange">employee</span><br/>
+                            <i>Niboo, Brussels, Belgium</i>
+                            <div className="job-description">
+                                As the main developer at Niboo, his main objectives were to advise customers on sensitive topics and help less experienced developers:
+                                <ul className="tasks-description">
+                                    <li>Provided both functional and technical support for customers and on the Odoo ERP projects</li>
+                                    <li>Analyzed the customer's requirements technically and functionally needs and estimated the workload of the implementations</li>
+                                    <li>Fully implemented features, organized releases, realized deployments, deployments follow-ups, cleanup and re-organizing of the Git repositories</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="experience-content">
                     <div className="experience-item">
                         <div className="left-column">
                             04/2018 - 07/2018
@@ -28,34 +32,48 @@ class Experiences extends Component {
                             <strong>Full Stack Developer</strong> <span className="badge badge-orange">employee</span><br/>
                             <i>Stanley/Stella, Brussels, Belgium</i>
                             <div className="job-description">
-                                As a Full Stack Developer, my job at Stanley/Stella mostly consisted in working on bringing the retail e-commerce website to the next level.
-                                I have faced several challenges like improving responsiveness, bringing back the Odoo standard features. 
-                                I also had the chance to work with other departments such as HR to build much needed tools in Odoo.
+                                As the sole in-house developer of Stanley/Stella, Pierre's main focuses were to improve the existing e-commerce website and ease the life of the company's other departments:
+                                <ul className="tasks-description">
+                                    <li>Revamp of the e-commerce platform's responsivness, implementation of the designer's HTML mock ups</li>
+                                    <li>Autonomously learned Electron in order to update the physical clothing store's kiosk</li>
+                                    <li>Implemented a process of one-pager PDF product sheets generation based on the products' data from the ERP</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div className="experience-item">
                         <div className="left-column">
-                            08/2015 - 04/2018
+                            09/2017 - 04/2018
                         </div>
                         <div className="right-column">
-                            <strong>Odoo Developer</strong> <span className="badge badge-orange">employee</span><br/>
+                            <strong>Technical Team Leader</strong> <span className="badge badge-orange">employee</span><br/>
                             <i>Niboo, Brussels, Belgium</i>
                             <div className="job-description">
-                                As an Odoo developer I have had the chance to work on several Odoo projects scaling from small startup ERP tweaking to big company completely new features building on top of the Odoo solution.
-                                During my experience at Niboo, I came across a load of various technical and functional challenges. It has been a very enriching experience to work with a talented team.
+                                Pierre's targets as Niboo's Technical Team Leader were to enforce the different pipeline's processes and to ensure high quality developments:
+                                <ul className="tasks-description">
+                                    <li>Autonomous implementation of the MVP phase of a consultant placement platform in a month time</li>
+                                    <li>Management and distribution of the development resources across the ongoing ERP projects</li>
+                                    <li>Organization of workshops to internally pass on knowledge about Odoo, Git and JavaScript</li>
+                                    <li>Management of a team of 5 developers</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div className="experience-item">
                         <div className="left-column">
-                            05/2015 - 08/2015
+                            08/2015 - 08/2017
                         </div>
                         <div className="right-column">
-                            <strong>Logistics Technician</strong> <span className="badge badge-green">student-job</span><br/>
-                            <i>Norel, Zellik, Belgium</i>
+                            <strong>Junior Full Stack Developer</strong> <span className="badge badge-orange">employee</span><br/>
+                            <i>Niboo, Brussels, Belgium</i>
                             <div className="job-description">
-                                Mostly handling day to day picking operations for the customers of Norel. I also had the opportunity to do some receipt operations.
+                                The objectives of Pierre as the first employee/developer of Niboo were to master the whole stack and to be able to completely develop a feature an deploy it to production:
+                                <ul className="tasks-description">
+                                    <li>Integration of HTML mock-ups on the website and e-commerce parts of Odoo</li>
+                                    <li>Functional customer trainings on the whole sales flow of Odoo, including accounting</li>
+                                    <li>Initial import of customers' data into their Odoo database</li>
+                                    <li>Autonomously worked on the MVP phase of the smart cashier directly connected to Odoo</li>
+                                </ul> 
                             </div>
                         </div>
                     </div>
@@ -64,22 +82,10 @@ class Experiences extends Component {
                             02/2015 - 05/2015
                         </div>
                         <div className="right-column">
-                            <strong>IT Trainee</strong> <span className="badge badge-blue">internship</span><br/>
+                            <strong>IT Intern</strong> <span className="badge badge-blue">internship</span><br/>
                             <i>Proximus, Liège, Belgium</i>
                             <div className="job-description">
-                                During my traineeship, I implemented a custom Excel report generating tool in VBA for the Liege area outsourcing division. I learned VBA and developed the tool from scratch. I linked the solution to several Access databases and simplified the report generation with a GUI. What used to take a day per month now takes 10 minutes.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="experience-item">
-                        <div className="left-column">
-                            09/2014 - 09/2014
-                        </div>
-                        <div className="right-column">
-                            <strong>Customer Service Employee</strong> <span className="badge badge-green">student-job</span><br/>
-                            <i>Edition Averbode/Erasme, Namur, Belgium</i>
-                            <div className="job-description">
-                                Mostly answering phone calls from customer who wanted to renew their subscription for the coming school year.
+                                Implementation from scratch of a custom Excel report generating tool in VBA for the Liege area outsourcing division aggregating data from several databases.
                             </div>
                         </div>
                     </div>
