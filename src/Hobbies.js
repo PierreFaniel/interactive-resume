@@ -23,12 +23,10 @@ class Hobbies extends Component {
                         <img src={music_logo} alt="Music" />
                         <h3>Music</h3>
                     </a>
-                    <div className="hobby-item">
-                        <a className="hobby-item" href="https://www.instagram.com/peet.fnl">
-                            <img src={hiking_logo} alt="Hiking" />
-                            <h3>Hiking</h3>
-                        </a>
-                    </div>
+                    <a className="hobby-item" href="https://www.instagram.com/peet.fnl">
+                        <img src={hiking_logo} alt="Hiking" />
+                        <h3>Hiking</h3>
+                    </a>
                 </div>
             </section>
         )
