@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-scrollspy": "^3.3.5"
   },
   "homepage": ".",
   "author": "Pierre Faniel",

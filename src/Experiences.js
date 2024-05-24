@@ -4,7 +4,7 @@ import './Experiences.css'
 class Experiences extends Component {
     render(){
         return(
-            <div className="container experience">
+            <section id="experienceSection" className="container experience">
                 <h2>Work Experience</h2>
                 <div className="experience-item">
                     <div className="left-column">
@@ -83,7 +83,7 @@ class Experiences extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

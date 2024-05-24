@@ -15,7 +15,7 @@ const SkillBar = ({name, percentage}) => (
 class Skills extends Component {
     render(){
         return (
-            <div className="container skills">
+            <section id="skillsSection" className="container skills">
                 <h2>Technical Skills</h2>
                 <div className="skill-group">
                     <SkillBar name="HTML" percentage="90"/>
@@ -40,7 +40,7 @@ class Skills extends Component {
                     <SkillBar name="Dutch" percentage="40"/>
                     <SkillBar name="German" percentage="25"/>
                 </div>
-            </div>
+            </section>
         )
     }
 }

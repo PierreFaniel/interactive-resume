@@ -14,7 +14,7 @@ class Profile extends Component {
 
     render(){
         return (
-            <div className="container profile">
+            <section id="profileSection" className="container profile">
                 <h2>Profile</h2>
                 <h4>I am an all around (Odoo) Developer</h4>
                 <div className="profile-content">
@@ -45,7 +45,7 @@ class Profile extends Component {
                         <img src={profile_picture} alt="Pierre Faniel profile - 2017"/>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

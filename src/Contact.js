@@ -12,7 +12,7 @@ class Contact extends Component {
 
     render(){
         return (
-            <div className="contact">
+            <section id="contactSection" className="contact">
                 <div className="container">
                     <h2>Contact</h2>
                     <div className="contact-logos">
@@ -25,7 +25,7 @@ class Contact extends Component {
                         © Pierre Faniel - {this.getCopyrightYear()}
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
