@@ -22,7 +22,6 @@ class App extends Component {
     } else {
       this.scrollSpyElement.classList.remove('fixed');
     }
-    console.log(this.scrollSpyElement.classList);
   }
 
   componentDidMount() {

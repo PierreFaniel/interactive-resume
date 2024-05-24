@@ -9,7 +9,7 @@ import guitar_logo from './logos/guitar.png';
 class Hobbies extends Component {
     render(){
         return (
-            <div className="container hobbies">
+            <section id="hobbiesSection" className="container hobbies">
                 <h2>My Hobbies</h2>
                 <div className="hobbies-list">
                     <div className="hobby-item">
@@ -33,7 +33,7 @@ class Hobbies extends Component {
                         <h3>Guitar</h3>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
