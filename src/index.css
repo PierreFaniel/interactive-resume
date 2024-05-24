@@ -20,11 +20,11 @@ h4 {
 }
 
 a{
-  color: rgb(1, 78, 150);
+  color: #014e96;
 }
 
 a:visited {
-  color: rgb(1, 78, 150);
+  color: #01325f;
 }
 
 @media only screen and (min-width: 992px) {
