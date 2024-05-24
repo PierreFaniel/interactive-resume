@@ -66,7 +66,7 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <h4>Atos Worldline - Quotion creation tool</h4>
+                    <h4>Atos Worldline - Quotation creation tool</h4>
                     <h6>08/2015 - 07/2016</h6>
                     <div className="project-description">
                         Pierre worked on this large scale project as a junior developer full time for almost a year.
