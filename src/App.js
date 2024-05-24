@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Cover from './Cover';
+import Profile from './Profile';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Cover/>
-        {/* <Profile/>
-        <Experiences/>
+        <Profile/>
+        {/* <Experiences/>
         <Abilities/>
         <Projects/>
         <Contact/> */}

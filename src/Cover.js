@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import cover from './cover.webp';
-import scroll from './icons/scroll.png';
 import './Cover.css';
 class Cover extends Component {
     render(){
