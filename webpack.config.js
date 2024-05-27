@@ -10,8 +10,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html"
-    })
+      favicon: "./src/favicon.ico",
+      filename: "index.html",
+      template: "./src/index.html",
+    }),
   ],
   resolve: {
     modules: [__dirname, "src", "node_modules"],

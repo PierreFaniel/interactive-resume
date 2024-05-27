@@ -1,6 +1,6 @@
 {
   "name": "resume-pierre-faniel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Online resume of senior full stack developer Pierre Faniel.",
   "main": "index.js",
   "scripts": {

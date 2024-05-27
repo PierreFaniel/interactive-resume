@@ -1,7 +1,14 @@
-const App = () => (
-  <div>
-    <h1>Hello, World!</h1>
-  </div>
-);
-  
+import Cover from './components/Cover';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <div>
+        <Cover/>
+      </div>
+    </div>
+  );
+}
+
 export default App;
