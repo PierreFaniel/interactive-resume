@@ -7,5 +7,16 @@
         "runtime": "automatic"
       }
     ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@": "./src"
+        }
+      }
+    ]
   ]
 }

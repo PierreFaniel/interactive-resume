@@ -12,7 +12,6 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitOverride": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     // Strict Rules - v4.8
@@ -24,7 +23,10 @@
     "useUnknownInCatchVariables": true,
 
     // Modules Configuration
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "module": "ESNext",
     "moduleResolution": "node",
 

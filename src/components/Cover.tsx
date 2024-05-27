@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import cover from './cover.jpg';
+import cover from '@/assets/images/cover.jpg';
 import './Cover.css';
 
 export default class Cover extends Component {
