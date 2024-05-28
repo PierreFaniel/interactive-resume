@@ -1,38 +1,58 @@
-.App {
+.container  {
+  width: 90%;
+  margin: auto;
+}
+
+.scroll-spy {
+  display: none;
+  margin-top: 0;
+  position: absolute;
+  top: 100%;
+  right: 3%;
+  list-style-type: none;
+}
+
+.scroll-spy.fixed {
+  top: 60px;
+  position: fixed;
+}
+
+.scroll-spy li {
+  display: block;
+  float: none;
+  height: 60px;
+  background-color: #383838;
+}
+
+.scroll-spy.fixed li:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.scroll-spy li:last-child{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.scroll-spy a {
+  color: #fff;
+  display: block;
+  position: relative;
+  padding: 20px 15px;
   text-align: center;
+  line-height: 20px;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scroll-spy li.is-current {
+  background-color: #cf5808;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 992px) {
+  .container  {
+      width: 60%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .scroll-spy {
+      display: block;
   }
 }
