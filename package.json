@@ -37,5 +37,12 @@
     "webpack": "5.91.0",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "5.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "parser": "@typescript-eslint/parser"
   }
 }

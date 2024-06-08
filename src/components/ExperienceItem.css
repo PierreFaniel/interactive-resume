@@ -1,11 +1,15 @@
 .badge {
   border: 1px solid;
   border-radius: 5px;
-  color: #fff;
-  font-size: smaller;
+  font-size: x-small;
   margin-left: 0.3rem;
-  padding: 0 5px;
+  padding: 0 4px;
   vertical-align: middle;
+}
+
+.badge-blue {
+  border-color: #4ba0eb;
+  color: #4ba0eb;
 }
 
 .badge-green {
@@ -13,9 +17,9 @@
   color: #14b457;
 }
 
-.badge-blue {
-  border-color: #4ba0eb;
-  color: #4ba0eb;
+.badge-grey {
+  border-color: #555;
+  color: #555;
 }
 
 .badge-orange {
