@@ -15,7 +15,7 @@ type Props = {
   startDate: string;
 };
 
-class ExperienceItem extends Component<Props> {
+export default class ExperienceItem extends Component<Props> {
   renderLocation() {
     if (this.props.company && this.props.companyLink) {
       return (
@@ -79,4 +79,3 @@ class ExperienceItem extends Component<Props> {
     );
   }
 }
-export default ExperienceItem;
