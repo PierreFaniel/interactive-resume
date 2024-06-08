@@ -1,78 +1,86 @@
-.experience-item {
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 0;
-}
-
-.experience-item .left-column {
-    display: inline-block;
-    padding-right: 20px;
-    padding-top: 10px;
-    position: relative;
-    text-align: right;
-    vertical-align: top;
-    width: 40%;
-}
-
-.experience-item .left-column::after{
-    background-color: #000;
-    border-radius: 50%;
-    content: "";
-    height: 10px;
-    position: absolute;
-    right: -5.7px;
-    top: 14px;
-    width: 10px;
-}
-
-.experience-item .right-column {
-    border-left: 1px dashed #000;
-    display: inline-block;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    width: 45%;
-}
-
-.job-description {
-    font-size: 14px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
 .badge {
-    border: 1px solid;
-    border-radius: 5px;
-    color: #fff;
-    font-size: smaller;
-    margin-left: .3rem;
-    padding: 0 5px;
-    vertical-align: middle;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  font-size: smaller;
+  margin-left: 0.3rem;
+  padding: 0 5px;
+  vertical-align: middle;
 }
 
 .badge-green {
-    border-color: #14b457;
-    color: #14b457;
+  border-color: #14b457;
+  color: #14b457;
 }
 
 .badge-blue {
-    border-color: #4ba0eb;
-    color: #4ba0eb;
+  border-color: #4ba0eb;
+  color: #4ba0eb;
 }
 
 .badge-orange {
-    border-color: #eb753c;
-    color: #eb753c;
+  border-color: #eb753c;
+  color: #eb753c;
+}
+
+.company-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.experience-item {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.experience-item .left-column {
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 10px;
+  position: relative;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+}
+
+.experience-item .left-column::after {
+  background-color: #000;
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  position: absolute;
+  right: -5.7px;
+  top: 14px;
+  width: 10px;
+}
+
+.experience-item .right-column {
+  border-left: 1px dashed #000;
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 45%;
+}
+
+.job-description {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.skills-used {
+  font-size: small;
 }
 
 @media only screen and (min-width: 460px) {
-    .experience-item .right-column {
-        width: 65%;
-    }
-    .experience-item .left-column {
-        width: 25%;
-    }
-    .job-description {
-        text-align: justify;
-    }
+  .experience-item .right-column {
+    width: 65%;
+  }
+  .experience-item .left-column {
+    width: 25%;
+  }
+  .job-description {
+    text-align: justify;
+  }
 }

@@ -13,7 +13,15 @@ export default class Experiences extends Component {
               <strong>Senior Full Stack Developer</strong>
               <span className="badge badge-orange">full-time</span>
               <br />
-              <i>Niboo, Brussels, Belgium</i>
+              <i>
+                <a
+                  className="company-link"
+                  href="https://www.niboo.com/"
+                  target="_blank"
+                >
+                  Niboo, Brussels, Belgium
+                </a>
+              </i>
               <div className="job-description">
                 After a short tenure at Stanler/Stella, Pierre came back to
                 Niboo as a technical team leader. He managed a scrum team of 5
@@ -35,6 +43,10 @@ export default class Experiences extends Component {
                   </li>
                 </ul>
               </div>
+              <div className="skills-used">
+                <i>Skills:</i> Odoo | Scrum | Python 2.7 | Celery | jQuery |
+                OdooJs | HTML + CSS | PostrgeSQL | Docker | Bash
+              </div>
             </div>
           </div>
           <div className="experience-item">
@@ -43,7 +55,15 @@ export default class Experiences extends Component {
               <strong>Full Stack Developer</strong>
               <span className="badge badge-orange">full-time</span>
               <br />
-              <i>Stanley/Stella, Brussels, Belgium</i>
+              <i>
+                <a
+                  className="company-link"
+                  href="https://stanleystella.com/"
+                  target="_blank"
+                >
+                  Stanley/Stella, Brussels, Belgium
+                </a>
+              </i>
               <div className="job-description">
                 As the sole in-house developer of Stanley/Stella, Pierre's main
                 focuses were to improve the existing e-commerce website and ease
@@ -63,6 +83,10 @@ export default class Experiences extends Component {
                   </li>
                 </ul>
               </div>
+              <div className="skills-used">
+                <i>Skills:</i> Odoo | Python 2.7 | jQuery | OdooJs | HTML + CSS
+                | PostrgeSQL | Electron JS | React
+              </div>
             </div>
           </div>
           <div className="experience-item">
@@ -71,7 +95,15 @@ export default class Experiences extends Component {
               <strong>Full Stack Developer</strong>
               <span className="badge badge-orange">full-time</span>
               <br />
-              <i>Niboo, Brussels, Belgium</i>
+              <i>
+                <a
+                  className="company-link"
+                  href="https://www.niboo.com/"
+                  target="_blank"
+                >
+                  Niboo, Brussels, Belgium
+                </a>
+              </i>
               <div className="job-description">
                 Pierre was the first full-time employee and developer of Niboo.
                 As a junior develeper out of college, he was a full time Odoo
@@ -93,6 +125,10 @@ export default class Experiences extends Component {
                   </li>
                 </ul>
               </div>
+              <div className="skills-used">
+                <i>Skills:</i> Odoo | Python 2.7 | jQuery | OdooJs | HTML + CSS
+                | PostrgeSQL | Bash
+              </div>
             </div>
           </div>
           <div className="experience-item">
@@ -101,11 +137,23 @@ export default class Experiences extends Component {
               <strong>IT Intern</strong>
               <span className="badge badge-blue">internship</span>
               <br />
-              <i>Proximus, Liège, Belgium</i>
+              <i>
+                <a
+                  className="company-link"
+                  href="https://www.proximus.be/"
+                  target="_blank"
+                >
+                  Proximus, Liège, Belgium
+                </a>
+              </i>
               <div className="job-description">
                 Implementation from the ground up of a custom Excel report
                 generating tool in VBA for the outsourcing division of the Liège
                 province, aggregating data from 3 databases
+                <ul className="tasks-description" />
+              </div>
+              <div className="skills-used">
+                <i>Skills:</i> VBA | Access SQL | Access | Excel
               </div>
             </div>
           </div>
