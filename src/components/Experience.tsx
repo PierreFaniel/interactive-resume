@@ -17,7 +17,9 @@ export default class Experiences extends Component {
               <div className="job-description">
                 After a short tenure at Stanler/Stella, Pierre came back to
                 Niboo as a technical team leader. He managed a scrum team of 5
-                developers.
+                developers. He lead and participated in several Odoo
+                implementation projects. He also trained developers with less
+                experience.
                 <ul className="tasks-description">
                   <li>
                     Improved performances on complex Python background jobs
