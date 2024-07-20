@@ -33,6 +33,7 @@ yarn-error.log*
 
 # production
 /dist
+/build
 
 # misc
 .DS_Store
