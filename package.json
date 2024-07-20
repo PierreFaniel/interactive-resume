@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --config webpack.config.js --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "tscheck": "tsc"
   },
   "repository": {
