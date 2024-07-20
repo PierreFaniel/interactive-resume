@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/PierreFaniel/interactive-resume/issues"
   },
-  "homepage": "https://github.com/PierreFaniel/interactive-resume#readme",
+  "homepage": "https://PierreFaniel.github.io/interactive-resume",
   "devDependencies": {
     "@babel/core": "7.24.6",
     "@babel/preset-env": "7.24.6",
@@ -29,6 +29,7 @@
     "babel-plugin-module-resolver": "^5.0.2",
     "css-loader": "7.1.2",
     "file-loader": "6.2.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "5.6.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
