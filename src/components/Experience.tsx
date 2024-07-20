@@ -112,16 +112,47 @@ export default class Experience extends Component<{}, State> {
           company="AlayaCare"
           companyLink="https://alayacare.ca/"
           employementDescription="full-time"
+          endDate="Current"
+          jobDescription="As a staff full stack developer, Pierre is a key stake holder in his domain; responsible for the architecture, development and maintenance of all the features owned by his scrum team. Pierre is also mentoring teammates, conducting code reviews, pair programming and providing technical and functional advice."
+          jobHighlights={[
+            "Overhauled performance of a key endpoint, with 40k daily visits, effectively reducing loading time by 72% by refactoring the underlying SQL query",
+            "Refactored a data aggregator to leverage asynchronous capabilities of Python to parallelize external API calls. Going from an average of 2.2s to 540ms (4x)",
+            "Reduced error rate in marketplace offer workflow by 147% by investigating common errors and improving user experience around top 5 errors",
+          ]}
+          jobTitle="Stack Full Stack Developer"
+          location="Montréal, Canada"
+          startDate="12/2023"
+          skills={[
+            "Python 3: Flask, Celery, SQLAlchemy",
+            "JavaScript: VueJs, Jest, ES6, TypeScript",
+            "SQL: AuroraSQL, PostgreSQL",
+            "Docker, Kubernetes",
+            "CI/CD",
+            "AWS",
+            "IAM",
+            "Terraform",
+            "OpenSearch/Kibana",
+            "NewRelic",
+          ]}
+        />
+        <ExperienceItem
+          badgeColor="orange"
+          company="AlayaCare"
+          companyLink="https://alayacare.ca/"
+          employementDescription="full-time"
           endDate="12/2023"
-          jobDescription="TODO"
-          jobHighlights={[]}
+          jobDescription="As a senior developer who worked in 2 different scrum teams in the engineering department, Pierre has contributed to the delivery and maintenance of over 30 major features."
+          jobHighlights={[
+            "Spearheaded an initiative to reduce the rate of failed US Medicaid claims from 10% to under 1% by architecturing, designing and implementing a manual claim reconciliation tool",
+            "Completed the implementation of the US Medicaid claim generation engine revamp. Effectively enabling 300+ client agencies to generate Medicaid compliant invoices for the care they provide."
+          ]}
           jobTitle="Senior Full Stack Developer"
           location="Montréal, Canada"
           startDate="10/2019"
           skills={[
-            "Python 2 and 3: Flask",
+            "Python 2 and 3: Flask, Celery, SQLAlchemy",
             "JavaScript: VueJs, Jest, ES6",
-            "PostgreSQL",
+            "SQL: Mariadb, PostgreSQL",
             "Docker",
             "CI/CD",
             "AWS",
@@ -135,7 +166,7 @@ export default class Experience extends Component<{}, State> {
           companyLink="https://microcom.ca/"
           employementDescription="full-time"
           endDate="10/2019"
-          jobDescription="After reloctating to Canada, Pierre took a small tenure with Microcom as an Odoo specialist. There he worked on several Odoo projects as well as helping with the maintenance with miscelaneous IT projects."
+          jobDescription="After reloctating to Canada, Pierre took a small tenure with Microcom as an Odoo specialist. He worked on several Odoo projects as well as helping with the maintenance with miscelaneous IT projects."
           jobHighlights={[
             "Self-directed learning of Angular and MongoDb for maintenance and improvement of a CRM application",
             "Maintained and implemented custom solution integrated with Odoo ERP",

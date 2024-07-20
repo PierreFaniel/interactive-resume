@@ -73,8 +73,14 @@
   padding-left: 10px;
   padding-top: 10px;
 }
+
 .skills-used {
   font-size: small;
+  display: flex;
+}
+
+.skills-used span {
+  margin-left: 3px;
 }
 
 @media only screen and (min-width: 460px) {

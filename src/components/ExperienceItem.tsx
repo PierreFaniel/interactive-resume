@@ -36,7 +36,7 @@ export default class ExperienceItem extends Component<Props> {
     if (this.props.skills) {
       return (
         <div className="skills-used">
-          <i>Skills: </i>{this.props.skills.join(" | ")}
+          <i>Skills:</i><span>{this.props.skills.join(" | ")}</span>
         </div>
       );
     }
